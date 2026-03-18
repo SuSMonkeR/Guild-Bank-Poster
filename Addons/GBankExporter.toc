@@ -1,0 +1,8 @@
+## Interface: 11503
+## Title: GBank Exporter
+## Notes: Scans bags and bank, exports inventory data for GBank Poster
+## Author: GBank Poster
+## Version: 2.0
+## SavedVariables: GBankExporterDB
+
+GBankExporterAddon.lua

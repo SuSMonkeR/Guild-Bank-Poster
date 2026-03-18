@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+venv/
+.venv/
+env/
+
+# PyInstaller build output
+GbankPoster/build/
+GbankPoster/dist/
+
+# Config and state — personal data, users generate their own
+GbankPoster/gbank_config.json
+GbankPoster/gbank_state.json
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Windows
+Thumbs.db
+Desktop.ini
