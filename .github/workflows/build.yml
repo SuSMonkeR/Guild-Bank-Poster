@@ -8,6 +8,9 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: write   # required to create releases and upload assets
+
 jobs:
   build:
     runs-on: windows-latest
@@ -75,6 +78,5 @@ jobs:
             ### This build was created automatically
             This EXE was built by GitHub Actions directly from the source code in this repository.
             You can inspect every step in the [Actions tab](../../actions) — no manual intervention, no added files.
-          generate_release_notes: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
